@@ -37,13 +37,14 @@ header {
 }
 
 .hero {
-  background: linear-gradient(rgba(0, 86, 179, 0.6), rgba(0, 86, 179, 0.6)), url('https://muet.edu.pk/sites/default/files/2021-09/muet-campus.jpg') center/cover;
-  color: white;
+  background-color:black;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 120px 40px;
 }
 
 .hero h1 {
+  color: yellow;
   font-size: 2.5em;
 }
 
@@ -63,8 +64,8 @@ header {
 }
 
 .btn:hover {
-  background: #003d80;
-  color: white;
+  background: #6b8000;
+  color:yellow;
 }
 
 .features {
@@ -80,16 +81,15 @@ header {
   padding: 20px;
   width: 250px;
   text-align: center;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px #050608;
 }
 
 .page-banner {
   text-align: center;
   padding: 60px 20px;
-  background: #0056b3;
-  color: white;
+  background:black;
+  color:yellow;
 }
-
 .departments {
   display: flex;
   flex-wrap: wrap;
@@ -99,12 +99,13 @@ header {
 }
 
 .card {
-  background: white;
-  padding: 20px;
+  background: rgb(246, 245, 248);
+  padding-top: 20px;
+  margin-top: 20px;
   border-radius: 8px;
-  width: 200px;
+  width: 300px;
   text-align: center;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 6px rgba(1, 9, 22, 0.1);
   transition: 0.3s;
 }
 
@@ -137,4 +138,19 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
+}
+.p{
+  color: #f8faff;
+}
+.p{
+  color: white;
+}
+.p{
+  color: white;
+}
+.p{
+  color: white;
+}
+.p{
+  color: white;
 }
