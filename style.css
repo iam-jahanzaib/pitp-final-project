@@ -16,7 +16,8 @@ header {
 
 .logo {
   font-size: 1.5em;
-  font-weight: bold;
+  width: 18rem;
+
 }
 
 .nav-links {
@@ -37,14 +38,14 @@ header {
 }
 
 .hero {
-  background-color:black;
+  background-color: black;
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 120px 40px;
 }
 
 .hero h1 {
-  color: yellow;
+  color: gold;
   font-size: 2.5em;
 }
 
@@ -65,7 +66,7 @@ header {
 
 .btn:hover {
   background: #6b8000;
-  color:yellow;
+  color: yellow;
 }
 
 .features {
@@ -87,9 +88,10 @@ header {
 .page-banner {
   text-align: center;
   padding: 60px 20px;
-  background:black;
-  color:yellow;
+  background: black;
+  color: gold;
 }
+
 .departments {
   display: flex;
   flex-wrap: wrap;
@@ -127,7 +129,8 @@ form {
   gap: 15px;
 }
 
-input, textarea {
+input,
+textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -139,18 +142,46 @@ footer {
   text-align: center;
   padding: 20px;
 }
-.p{
+
+.p {
   color: #f8faff;
 }
-.p{
+
+.p {
   color: white;
 }
-.p{
+
+.p {
   color: white;
 }
-.p{
+
+.p {
   color: white;
 }
-.p{
+
+.p {
   color: white;
+}
+
+.div {
+  width: 18rem;
+}
+
+.div {
+  width: 18rem;
+}
+
+.div {
+  width: 18rem;
+}
+
+.contact-icons a {
+  margin: 10px;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-icons a:hover {
+  color: gold;
 }

@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Admissions | MUET</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
     <div class="logo">MUET</div>
@@ -23,11 +25,61 @@
   <section class="page-banner">
     <h1>Admissions</h1>
     <p class="p">
-Admissions at Mehran University of Engineering & Technology (MUET) Jamshoro are open to talented students from across Pakistan. 
-The university offers undergraduate and postgraduate programs in various engineering and technology fields, with a transparent and merit-based selection process.
-</p>
-  </section>
+      Admissions at Mehran University of Engineering & Technology (MUET) Jamshoro are open to talented students from
+      across Pakistan.
+      The university offers undergraduate and postgraduate programs in various engineering and technology fields, with a
+      transparent and merit-based selection process.
+    </p>
 
+  </section>
+  <h3>Admission form</h3>
+  <form action="#" method="post">
+
+    <label>Full Name:</label><br>
+    <input type="text" name="fullname" required><br><br>
+
+    <label>Roll Number:</label><br>
+    <input type="text" name="rollno" required><br><br>
+
+    <label>Class / Program:</label><br>
+    <select name="class" required>
+      <option value="">Select</option>
+      <option>First Year</option>
+      <option>Second Year</option>
+      <option>Third Year</option>
+      <option>Final Year</option>
+    </select><br><br>
+
+    <label>Date of Birth:</label><br>
+    <input type="date" name="dob" required><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other<br><br>
+
+    <label>Phone Number:</label><br>
+    <input type="tel" name="phone" placeholder="0312-1234567" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label>Address:</label><br>
+    <textarea name="address" rows="3" cols="30"></textarea><br><br>
+
+    <label>Guardian Name:</label><br>
+    <input type="text" name="guardian"><br><br>
+
+    <label>Upload Photo:</label><br>
+    <input type="file" name="photo" accept="image/*"><br><br>
+
+    <input class="submit" type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+  </form>
+
+
+  <!-- Urdu heading (optional) -->
   <section class="content">
     <h2>How to Apply</h2>
     <p>Applications open in June each year. Follow the online application process via the MUET Admission Portal.</p>
@@ -38,4 +90,5 @@ The university offers undergraduate and postgraduate programs in various enginee
     <p>© 2025 MUET | All Rights Reserved</p>
   </footer>
 </body>
+
 </html>
